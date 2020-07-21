@@ -1,0 +1,37 @@
+.nav {
+    width: 100vw;
+    height: 14.493vw;
+    overflow: scroll;
+
+    .nav_ul {
+        width: 135.266vw;
+        height: 14.493vw;
+        overflow: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        margin: 0;
+
+        >li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 16.908vw;
+            height: 14.493vw;
+            flex: none;
+
+            >img {
+                width: 5.314vw;
+                height: 5.314vw;
+            }
+
+            >a {
+                font-size: 3.14vw;
+                color: #888;
+            }
+        }
+    }
+}
+
+

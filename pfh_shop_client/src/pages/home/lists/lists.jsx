@@ -1,7 +1,7 @@
 import React from "react"
 import { Tabs } from 'antd';
 const TabPane = Tabs.TabPane;
-// import "./lists.css"
+// import "./lists.scss"
 
 export default function Tebst() {
     return (

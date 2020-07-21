@@ -3,7 +3,7 @@ import img1 from "./images/kuajing.jpg"
 import img2 from "./images/shengdan.jpg"
 import img3 from "./images/daifa.png"
 import img4 from "./images/zixun.png"
-import "./gongge.css"
+import "./gongge.scss"
 
 export default class GongGe extends Component {
     render() {

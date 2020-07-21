@@ -1,0 +1,30 @@
+.gongge {
+    width: 100vw;
+    height: 14.493vw;
+    display: flex;
+    justify-content: space-around;
+
+    li {
+        width: 24.517vw;
+        height: 14.493vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 0.121vw solid #ccc;
+        justify-content: space-around;
+        margin-top: 0.725vw;
+
+        img {
+            width: 6.763vw;
+            height: 6.763vw;
+        }
+
+        a {
+            font-size: 3.623vw;
+            color: #000;
+        }
+    }
+
+
+}

@@ -1,5 +1,5 @@
 import React from "react"
-import "./sort-list.css"
+import "./sort-list.scss"
 
 
 export default function SortList() {

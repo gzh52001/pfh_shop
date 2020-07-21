@@ -1,6 +1,6 @@
 import React from "react"
 import { Carousel } from 'antd';
-import "./carousel.css"
+import "./carousel.scss"
 import img1 from "./images/1.jpg"
 import img2 from "./images/2.jpg"
 import img3 from "./images/3.jpg"

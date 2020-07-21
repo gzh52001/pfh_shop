@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import './goodsxq.css'
+import React, {Component} from 'react'
+import './goodsxq.scss'
 import TopNav from '../../components/TopNav/topNav'
 import CarBtn from '../../components/CarBtn/carBtn'
 import imgg from './img/giao.jpg'

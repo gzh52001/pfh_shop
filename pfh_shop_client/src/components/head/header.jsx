@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Logo from './images/logo2.png'
 import Logo_se from './images/search2.png'
-import "./header.css"
+import "./header.scss"
 // import NavApp from "../nav/nav"
 // import { Affix } from 'antd'
 

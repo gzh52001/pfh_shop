@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import kong  from './images/emptycart.jpg'
-import './shopCar.css'
+import './shopCar.scss'
 import TarBar from '../../components/TarBar/tarBar'
 import TopBar from '../../components/TopBar/topBar'
 /**

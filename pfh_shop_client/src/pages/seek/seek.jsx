@@ -1,6 +1,6 @@
 import React from "react"
 import SeekHead from "./seek-head/seek-head"
-import "./seek.css"
+import "./seek.scss"
 
 export default function Seek() {
     return (

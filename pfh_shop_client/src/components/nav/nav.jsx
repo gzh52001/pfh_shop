@@ -7,10 +7,10 @@ import shouzhuo from "./images/shouzhuo.png"
 import xianglian from "./images/xianglian.png"
 import jiaolian from "./images/jiaolian.png"
 import taozhuang from "./images/taozhuang.png"
-import "./nav.css"
+import "./nav.scss"
 
 
-export default function NavApp() {
+export default function Nav() {
     // render() {
         return (
             <div className="nav">

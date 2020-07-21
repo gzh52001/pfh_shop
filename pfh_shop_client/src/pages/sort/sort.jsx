@@ -2,7 +2,7 @@ import React from "react"
 import Head from "../../components/head/header"
 import img1 from "./images/xl.png"
 import img2 from "./images/ss.png"
-import "./sort.css"
+import "./sort.scss"
 import SortList from "./sort-list/sort-list"
 import SortKk from "./sort-kk/sort-kk"
 

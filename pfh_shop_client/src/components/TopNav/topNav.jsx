@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import './topNav.css'
+import './topNav.scss'
 import back from './img/fanhui.png'
 import car from './img/cart.png'
-import { Redirect } from 'react-router-dom'
 /**
  * 购物车的路由组件
  */
@@ -11,7 +10,7 @@ export default class TopNav extends Component {
         return (
             <div className="topNav">
                    <ul className="clear">
-                       <li className="back"><img onClick={()=>this.props.go} src={back} alt=""/></li>
+                       <li className="back"><img src={back} alt=""/></li>
                        <li>商品信息</li>
                        <li>商品详情</li>
                        <li>采购说明</li>

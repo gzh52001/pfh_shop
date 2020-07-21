@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
-import './home.css'
+import './home.scss'
 import Head from "../../components/head/header"
-import NavApp from "../../components/nav/nav"
+import Nav from "../../components/nav/nav"
 import Lunbo from "../../components/carousel/carousel"
 import GongGe from "./gongge/gongge"
 import img1 from "./images/tu3.jpg"
@@ -9,16 +9,38 @@ import img2 from "./images/tu4.jpg"
 import Xklb from "./xinkuan/xinkuan"
 import Tebst from "./lists/lists"
 import { Affix } from 'antd'
+// import  appJsConfig  from '../../api/api'
 /**
  * 首页的路由组件
  */
+// const FormItem = Form.Item;
+
+
 export default class Home extends Component {
+    // state = {
+    //     //接口数据
+    //     list:[],
+    // }
+    // async componentDidMount() {
+    //     try{
+    //         const a = await appJsConfig.getapp()
+    //         console.log(a.data);
+    //         this.setState({
+    //             //首页接口所有数据
+    //             list:a.data.data,
+    //         })
+    //     }catch(err){
+    //         console.log(err);
+    //     }
+    // }
+
+
     render (){
         return(
             <div className="home">
                 <Affix>
                     <Head />
-                    <NavApp />
+                    <Nav />
                 </Affix>
                 <Lunbo />
                 <div className="kuajing">

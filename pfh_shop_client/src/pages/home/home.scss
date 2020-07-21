@@ -1,0 +1,69 @@
+.home {
+    width: 100%;
+    padding: 0.483vw;
+    box-sizing: border-box;
+
+    .ant-affix {
+        width: 100%;
+        background: #fff;
+    }
+
+    .kuajing {
+        margin-top: 0.966vw;
+
+        >img {
+            margin-left: 0.483vw;
+            width: 49.034vw;
+            height: 23.188vw;
+        }
+    }
+
+    .huiyuan {
+        height: 14.493vw;
+        width: 100vw;
+        padding: 1.449vw 2.415vw;
+
+        .huiyuan-l {
+            float: left;
+
+            h3 span {
+                color: #bc338b;
+
+
+            }
+
+            a {
+                color: #888;
+                font-size: 2.899vw;
+            }
+
+        }
+
+        >a {
+            width: 27.536vw;
+            height: 6.763vw;
+            float: right;
+            background: #bc338b;
+            margin: 2.415vw 2.899vw 0 0;
+            text-align: center;
+            line-height: 6.763vw;
+            color: #fff;
+            border-radius: 3.623vw;
+        }
+    }
+
+    .xinkuan {
+        margin-top: 0.725vw;
+        width: 100vw;
+        height: 85.507vw;
+        background-image: url("./images/background2.jpg");
+        background-size: 100% auto;
+        padding: 11.87vw 3.623vw;
+
+        .xinkuan-content {
+            width: 93.237vw;
+            height: 69.082vw;
+        }
+    }
+
+}

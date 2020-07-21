@@ -1,5 +1,5 @@
 import React from "react"
-import "./sort-kk.css"
+import "./sort-kk.scss"
 
 
 export default function SortKk() {

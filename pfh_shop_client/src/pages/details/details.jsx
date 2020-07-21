@@ -6,7 +6,7 @@ import Price from '../../components/Price/price'
 import Specs from '../../components/Specs/specs'
 import Shuju from '../../components/Shuju/shuju'
 import CarBtn from '../../components/CarBtn/carBtn'
-import './details.css'
+import './details.scss'
 /**
  * 购物车的路由组件
  */

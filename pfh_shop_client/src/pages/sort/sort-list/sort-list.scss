@@ -1,0 +1,14 @@
+.tba1 {
+    /* list-style: none; */
+    width: 95px;
+    height: 480px;
+    float: left;
+
+    li {
+        width: 95px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        border: 0.5px solid #ccc;
+    }
+}
