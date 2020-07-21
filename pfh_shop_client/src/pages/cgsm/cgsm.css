@@ -1,0 +1,32 @@
+.cgsm{
+    width: 100%;
+}
+.cgsm .cgsm-bar{
+    width: 100%;
+    padding: 4vw 
+}
+.cgsm .cgsm-bar .header{
+    width: 100%;
+}
+.cgsm .cgsm-bar .header .line,
+.cgsm .cgsm-bar .footer .line{
+    float: left;
+    font-size: 6vw;
+    color: #f00;
+}
+.cgsm .cgsm-bar .header h1,
+.cgsm .cgsm-bar .footer h1{
+    font-size: 4vw;
+    padding-top: 3.045vw;
+    padding-left: 3vw;
+    padding-bottom: 4vw;
+    border-bottom: 1px dashed #333;
+}
+.cgsm .cgsm-bar .pic{
+    width: 100vw;
+    height: 100vw;
+}
+.cgsm .cgsm-bar .pic img{
+    width: 100%;
+    height: 100%;
+}

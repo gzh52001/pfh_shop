@@ -1,0 +1,15 @@
+.goods-xq{
+    width: 100%;
+}
+.goods-xq .img-bar{
+    width: 100%;
+
+}
+.goods-xq .img-bar .img{
+    width: 100.2vw;
+    height: 100.2vw;
+}
+.goods-xq .img-bar .img img{
+    width: 100%;
+    height: 100%;
+}

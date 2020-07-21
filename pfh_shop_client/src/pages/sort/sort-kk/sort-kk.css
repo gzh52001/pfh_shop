@@ -1,0 +1,29 @@
+.tba2 {
+    float: left;
+    margin: 2.415vw 2.899vw;
+}
+.tba2>li {
+    width: 70.048vw;
+    height: 35.749vw;
+    margin-bottom: 1.208vw;
+}
+.cailiao {
+    height: 9.662vw;
+}
+.cailiao a:nth-child(1) {
+    float: left;
+    color: #000;
+}
+.cailiao a:nth-child(2) {
+    float: right;
+    color: #000;
+}
+.tba2-ul li{
+    width: 22.222vw;
+    height: 7.246vw;
+    line-height: 7.246vw;
+    text-align: center;
+    float: left;
+    border: solid 0.121vw #888;
+    margin: 0.483vw;
+}

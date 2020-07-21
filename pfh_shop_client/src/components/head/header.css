@@ -1,0 +1,17 @@
+
+.logo_home{
+    width: 100%;
+    height: 12.077vw;
+    border-bottom: solid 0.242vw #ccc;
+}
+.logo_home .logo{
+    width: 35.024vw;
+    height: 6.039vw;
+    margin: 2.899vw 0 0 32.488vw;
+}
+.logo_home .logo_se{
+    width: 5.797vw;
+    height: 5.797vw;
+    float: right;
+    margin: 3.382vw 2.415vw 0 0;
+}

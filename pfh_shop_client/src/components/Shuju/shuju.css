@@ -1,0 +1,147 @@
+.shuju{
+    width: 100%;
+    height: 14vw;
+    background-color: #fff;
+}
+.shuju ul li{
+    display: block;
+    height: 15vw;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+.shuju ul .mt{
+    margin-top: 0vw;
+}
+.shuju span{
+    display: block;
+}
+.shuju div{
+    float: left;
+}
+.shuju .sj{
+    float: left;
+    display: inline-block;
+    font-size: 4vw;
+    font-weight: 600;
+    padding-left: 5vw;
+    padding-top: 1vw;
+}
+.shuju .cj{
+    padding-left: 7vw;
+    padding-top: 1vw;
+}
+.shuju .cjl{
+    padding-left: 10vw;
+    padding-top: 1vw;
+}
+.shuju .cg{
+    padding-left: 7vw;
+    padding-top: 1vw;
+}
+.shuju .cgl{
+    padding-left: 10vw;
+    padding-top: 1vw;
+}
+.shuju .rj{
+    padding-left: 7vw;
+    padding-top: 1vw;
+}
+.shuju .rjl{
+    padding-left: 10vw;
+    padding-top: 1vw;
+}
+.shuju .jt1{
+    position: absolute;
+    top: 185.667vw;
+    left: 91vw;
+}
+.shuju .sx{
+    float: left;
+    display: inline-block;
+    font-size: 4vw;
+    font-weight: 600;
+    padding-left: 5vw;
+    padding-top: 1vw;
+}
+.shuju .pp{
+    padding-left: 7vw;
+    padding-top: 1vw;
+}
+.shuju .ppp{
+    padding-left: 10vw;
+    padding-top: 1vw;
+}
+.shuju .wz{
+    padding-left: 16vw;
+    padding-top: 1vw;
+}
+.shuju .wzz{
+    padding-left: 19vw;
+    padding-top: 1vw;
+}
+.shuju .jt2{
+    position: absolute;
+    top: 201.667vw;
+    left: 91vw;
+}
+
+
+
+.shuju .pj{
+    float: left;
+    display: inline-block;
+    font-size: 4vw;
+    font-weight: 600;
+    padding-left: 5vw;
+    padding-top: 1vw;
+}
+.shuju .nc{
+    display: inline-block;
+    padding-left: 7vw;
+    padding-top: 1vw;
+}
+.shuju .ncc{
+    display: inline-block;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+.shuju .mr{
+    margin-right: 30vw;
+}
+.shuju .pl{
+    padding-left: 7vw;
+    padding-top: 1vw;
+}
+
+.shuju .jt3{
+    position: absolute;
+    top: 216.667vw;
+    left: 91vw;
+}
+
+.shuju .lkn{
+    width: 16.333vw;
+    height: 12.467vw;
+    float: left;
+    display: inline-block;
+    font-size: 4vw;
+    font-weight: 600;
+    padding-left: 5vw;
+    padding-top: 1vw;
+}
+.shuju .lkn img{
+    width: 100%;
+    height: 100%;
+}
+.shuju .cp{
+    display: inline-block;
+    padding-left: 5vw;
+    padding-top: 1vw;
+}
+.shuju .qty{
+    padding-left: 5vw;
+    padding-top: 1vw;
+}
+.shuju .limt{
+    margin-top: 3vw;
+}

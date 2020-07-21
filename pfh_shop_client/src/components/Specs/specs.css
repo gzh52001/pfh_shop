@@ -1,0 +1,38 @@
+.specs{
+    width: 100%;
+    height: auto;
+}
+.specs ul li{
+    float: left;
+}
+.specs ul{
+    border-bottom: 1px solid #eee;
+}
+.specs .xuanze{
+    width: 20vw;
+    
+}
+.specs .xuanze span{
+    display: block;
+    width: 100%;
+    font-size: 5vw;
+    color: #f00;
+}
+.specs .xuanze .zi{
+    font-size: 3.77vw;
+    padding-left: 1.5vw;
+    padding-top: 1vw;
+    color: #333;
+}
+.specs .kuanshi{
+    width: 77vw;
+    padding-left: 2vw;
+}
+.clear::after,
+.clear::before{
+    content: "";
+    display: block;
+}
+.clear::after{
+    clear: both;
+}

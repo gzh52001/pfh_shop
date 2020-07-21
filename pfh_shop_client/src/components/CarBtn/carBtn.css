@@ -1,0 +1,72 @@
+body{
+    margin-bottom: 203vw;
+
+}
+.car-btn{
+    width: 100%;
+    height: 13vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-top: 0.333vw;
+    padding-left: 4vw;
+    background-color: #fff;
+}
+.car-btn ul li{
+    float: left;
+    width: 75.5px;
+    height: 13vw;
+    text-align: center;
+}
+.car-btn ul li span{
+    display: block;
+    width: 100%;
+    height: 6.5vw;
+    font-size: 16px;
+}
+
+.car-btn ul li .x1{
+    margin-left: 2vw;
+    width: 4vw;
+    height: 4vw;
+}
+
+.car-btn ul li .g1{
+    margin-left: -5vw;
+    font-size: 3.78vw;
+    margin-top: 1.4vw;
+}
+.car-btn ul li span img{
+    width: 100%;
+    height: 100%;
+}
+.car-btn ul li .g2{
+    margin-left: -5vw;
+    font-size: 3vw;
+    color: #fff;
+    line-height: 13vw;
+    /* background-color: ##bc338b; */
+}
+.car-btn ul .g22{
+    height: 13VW;
+    background-color: #1c3a8b;
+    width: 25vw;
+    margin-left: -5vw;
+    padding-left: 3vw;
+
+}
+.car-btn ul li .x11{
+    float: left;
+    width: 4vw;
+    height: 4vw;
+    margin-top: 2.57vw;
+}
+.car-btn ul li .g3{
+    width: 22vw;
+    height: 13vw;
+    line-height: 13vw;
+    background-color: #bc338b;
+    font-size: 3vw;
+    margin-left: 0.5vw;
+    color: #fff;
+}

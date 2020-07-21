@@ -1,0 +1,24 @@
+.price{
+    width: 100%;
+    height: 14vw;
+}
+
+.price .jianshu{
+    float: left;
+    width: 100%;
+    height: 5vw;
+    padding-left: 3vw;
+}
+.price .jianshu span{
+    font-size: 3.33vw;
+}
+.price .jiage{
+    width: 100%;
+    height: 9vw;
+    line-height: 9vw;
+    padding-left: 2vw;
+}
+.price .jiage span{
+    font-size: 5vw;
+    color: #f00;
+}
