@@ -17,22 +17,7 @@ import { Affix } from 'antd'
 
 
 export default class Home extends Component {
-    // state = {
-    //     //接口数据
-    //     list:[],
-    // }
-    // async componentDidMount() {
-    //     try{
-    //         const a = await appJsConfig.getapp()
-    //         console.log(a.data);
-    //         this.setState({
-    //             //首页接口所有数据
-    //             list:a.data.data,
-    //         })
-    //     }catch(err){
-    //         console.log(err);
-    //     }
-    // }
+    
 
 
     render (){
@@ -61,7 +46,7 @@ export default class Home extends Component {
                 </div>
                 <div className="home-list">
                     <Tebst />
-
+                    
                 </div>
             </div>
             

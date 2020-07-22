@@ -1,31 +1,62 @@
 import React from "react"
-import shouye from "./images/shouye.png"
-import jiezhi from "./images/jiezhi.png"
-import ershi from "./images/ershi.png"
-import shoulian from "./images/shoulian.png"
-import shouzhuo from "./images/shouzhuo.png"
-import xianglian from "./images/xianglian.png"
-import jiaolian from "./images/jiaolian.png"
-import taozhuang from "./images/taozhuang.png"
 import "./nav.scss"
 
 
-export default function Nav() {
-    // render() {
+class Nav extends React.Component {
+    state = {
+        bookArr: [
+            {
+                siteName: "首页",
+                siteImg: "https://cdnimg.pfhoo.com/Content/201808/20180808184719562.png"
+            },
+            {
+                siteName: "戒指",
+                siteImg: "https://cdnimg.pfhoo.com/Content/201808/20180808141508995.png"
+            },
+            {
+                siteName: "项链",
+                siteImg: "https://cdnimg.pfhoo.com/Content/201808/20180808112947388.png"
+            },
+            {
+                siteName: "耳饰",
+                siteImg: "https://cdnimg.pfhoo.com/Content/201808/20180808112956168.png"
+            },
+            {
+                siteName: "手链",
+                siteImg: "https://cdnimg.pfhoo.com/Content/201808/20180808113008115.png"
+            },
+            {
+                siteName: "手镯",
+                siteImg: "https://cdnimg.pfhoo.com/Content/201808/20180808113016388.png"
+            },
+            {
+                siteName: "脚链",
+                siteImg: "https://cdnimg.pfhoo.com/Content/201808/20180808113026450.png"
+            },
+            {
+                siteName: "套装",
+                siteImg: "https://cdnimg.pfhoo.com/Content/201808/20180813094856938.png"
+            },
+        ]
+    }
+    render() {
+        // 定义数组，将元素放到该数组中
         return (
             <div className="nav">
                 <ul className="nav_ul">
-                    <li><img src={shouye} alt="首页"/><a href="###">首页</a></li>
-                    <li><img src={jiezhi} alt="戒指"/><a href="###">戒指</a></li>
-                    <li><img src={xianglian} alt="项链"/><a href="###">项链</a></li>
-                    <li><img src={ershi} alt="耳饰"/><a href="###">耳饰</a></li>
-                    <li><img src={shoulian} alt="手链"/><a href="###">手链</a></li>
-                    <li><img src={shouzhuo} alt="手镯"/><a href="###">手镯</a></li>
-                    <li><img src={jiaolian} alt="脚链"/><a href="###">脚链</a></li>
-                    <li><img src={taozhuang} alt="套装"/><a href="###">套装</a></li>
+                    {
+                        this.state.bookArr.map((item) => {
+                            return <li key={item.siteName}>
+                                <img src={item.siteImg} alt="" /><a>{item.siteName}</a>
+                            </li>
+                        }
+                        )
+                    }
                 </ul>
             </div>
         )
-}
 
- 
+
+    }
+}
+export default Nav

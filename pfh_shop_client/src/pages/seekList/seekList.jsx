@@ -8,12 +8,12 @@ import SeekNav from "./seek-nav/seek-nav"
 
 export default function SeekList() {
     return (
-        <div className="seek-list">
             <Affix>
-                <SeekHead />
-                <Nav />
-                <SeekNav />
+                <div className="seek-list">
+                    <SeekHead />
+                    <Nav />
+                    <SeekNav />
+                </div>
             </Affix>
-        </div>
     )
 }

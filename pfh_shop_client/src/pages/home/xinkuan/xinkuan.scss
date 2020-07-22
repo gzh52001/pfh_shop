@@ -1,0 +1,49 @@
+.xklb {
+    background: rgba(255, 255, 255, 0.9);
+
+    .xklb-ctnt {
+        height: 8.696vw;
+
+        h2 {
+            color: #888;
+            line-height: 8.696vw;
+            margin-left: 2.415vw;
+            font-size: 3.382vw;
+        }
+    }
+
+    .xklb-ctn {
+        width: 90.338vw;
+        height: 17.874vw;
+        float: left;
+        border-bottom: 0.242vw solid #ccc;
+        margin-bottom: 1.691vw;
+
+        >img {
+            width: 16.908vw;
+            height: 14.976vw;
+            float: left;
+        }
+
+        >div {
+            float: left;
+            margin-left: 2.899vw;
+
+            p {
+                width: 70.048vw;
+                height: 8.696vw;
+                color: #000;
+                font-size: 3.382vw;
+                line-height: 4.831vw;
+            }
+
+            span {
+                width: 24.155vw;
+                height: 6.763vw;
+                color: #bc338b;
+                display: block;
+                margin-top: -2.382vw;
+            }
+        }
+    }
+}

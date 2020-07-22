@@ -1,25 +1,37 @@
 import React, { Component } from "react"
 import "./seek-nav.scss"
 
-export default class SeekNav extends Component {
+class SeekList extends React.Component {
+    state = {
+        bookArr: [
+            { siteName: "纯银" },
+            { siteName: "铜" },
+            { siteName: "不锈钢" },
+            { siteName: "锡合金" },
+            { siteName: "镀银" },
+            { siteName: "镀金" },
+            { siteName: "珍珠" },
+            { siteName: "锆石" },
+            { siteName: "水晶" },
+            { siteName: "半宝石" },
+            { siteName: "金属" },
+            { siteName: "玻璃" },
+        ]
+    }
     render() {
+        // 定义数组，将元素放到该数组中
         return (
             <div className="seek-nav">
                 <ul className="seek-nav-ul">
-                    <li><a href="###">纯银</a></li>
-                    <li><a href="###">铜</a></li>
-                    <li><a href="###">不锈钢</a></li>
-                    <li><a href="###">锡合金</a></li>
-                    <li><a href="###">镀银</a></li>
-                    <li><a href="###">镀金</a></li>
-                    <li><a href="###">珍珠</a></li>
-                    <li><a href="###">锆石</a></li>
-                    <li><a href="###">水晶</a></li>
-                    <li><a href="###">半宝石</a></li>
-                    <li><a href="###">金属</a></li>
-                    <li><a href="###">玻璃</a></li>
+                    {
+                        this.state.bookArr.map((item) => {
+                            return <li key={item.siteName}><a>{item.siteName}</a></li>
+                        }
+                        )
+                    }
                 </ul>
             </div>
         )
     }
 }
+export default SeekList
