@@ -2,21 +2,34 @@ import React from "react"
 import "./sort-list.scss"
 
 
-export default function SortList() {
-    return (
-        <ul className="tba1">
-            <li>戒指</li>
-            <li>项链</li>
-            <li>耳饰</li>
-            <li>手链</li>
-            <li>手镯</li>
-            <li>脚链</li>
-            <li>套装</li>
-            <li>配件</li>
-            <li>胸针</li>
-            <li>头饰</li>
-            <li>钱夹</li>
-            <li>包装</li>
-        </ul>
-    )
+class SortList extends React.Component {
+    state = {
+        bookArr: [
+            { siteName: "戒指" },
+            { siteName: "项链" },
+            { siteName: "耳饰" },
+            { siteName: "手链" },
+            { siteName: "手镯" },
+            { siteName: "脚链" },
+            { siteName: "套装" },
+            { siteName: "配件" },
+            { siteName: "胸针" },
+            { siteName: "头饰" },
+            { siteName: "钱夹" },
+            { siteName: "包装" },
+        ]
+    }
+    render() {
+        return (
+            <ul className="tba1">
+                {
+                    this.state.bookArr.map((item => {
+                        return <li>{item.siteName}</li>
+                    }))
+
+                }
+            </ul>
+        )
+    }
 }
+export default SortList

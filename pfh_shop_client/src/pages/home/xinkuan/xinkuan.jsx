@@ -108,7 +108,7 @@ class Xklb extends React.Component {
         return (
             <Carousel className="xklb">
                 {
-                    this.state.bookArr.map((item, idnex) => (
+                    this.state.bookArr.map((item) => (
 
                         <div className="xklb-box" key={item.siteTitle}>
                             <div className="xklb-ctnt">

@@ -9,6 +9,7 @@ import GoodsXQ from './pages/goodsxq/goodsxq.jsx'
 import Cgsm from './pages/cgsm/cgsm.jsx'
 import Seek from "./pages/seek/seek.jsx"
 import SeekList from "./pages/seekList/seekList.jsx"
+import Foot from "./components/foot/foot.jsx"
 // import Bat from "./pages/bat.jsx"
 import 'antd/dist/antd'
 /**
@@ -21,7 +22,6 @@ export default class App extends Component {
         return (
             <HashRouter>
                 <Switch>
-                    {/* <Route path='/bat' component={Bat}></Route> */}
                     <Route path='/goodsxq' component={GoodsXQ}></Route>
                     <Route path='/cgsm' component={Cgsm}></Route>
                     <Route path='/seekList' component={SeekList}></Route>
