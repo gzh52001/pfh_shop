@@ -1,5 +1,6 @@
 .sort-b {
-    height: 736px;
+    height: 176.57vw;
+    position: relative;
 
     .sort-gg {
         width: 100vw;
@@ -31,6 +32,12 @@
 
     .sort-n {
         margin-top: 1.208vw;
+    }
+    >.foot {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
     }
 
 }

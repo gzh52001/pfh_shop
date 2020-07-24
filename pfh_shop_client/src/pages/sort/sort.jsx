@@ -4,6 +4,7 @@ import img1 from "./images/xl.png"
 import img2 from "./images/ss.png"
 import SortList from "./sort-list/sort-list"
 import SortKk from "./sort-kk/sort-kk"
+import Foot from "../../components/foot/foot"
 import "./sort.scss"
 
 class Sort extends React.Component {
@@ -22,6 +23,7 @@ class Sort extends React.Component {
                     <SortList />
                     <SortKk />
                 </div>
+                <Foot />
             </div>
         )
     }

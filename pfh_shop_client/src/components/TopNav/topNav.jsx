@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import './topNav.scss'
+
 import back from './img/fanhui.png'
 import car from './img/cart.png'
-/**
+import './topNav.scss'
+ /**
  * 购物车的路由组件
  */
 export default class TopNav extends Component {

@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import './home.scss'
 import Head from "../../components/head/header"
 import Nav from "../../components/nav/nav"
 import Lunbo from "../../components/carousel/carousel"
@@ -9,7 +8,9 @@ import img2 from "./images/tu4.jpg"
 import Xklb from "./xinkuan/xinkuan"
 import Tebst from "./lists/lists"
 import { Affix } from 'antd'
-// import  appJsConfig  from '../../api/api'
+import Foot from "../../components/foot/foot"
+import './home.scss'
+
 /**
  * 首页的路由组件
  */
@@ -18,8 +19,6 @@ import { Affix } from 'antd'
 
 export default class Home extends Component {
     
-
-
     render (){
         return(
             <div className="home">
@@ -48,6 +47,7 @@ export default class Home extends Component {
                     <Tebst />
                     
                 </div>
+                <Foot />
             </div>
             
         )

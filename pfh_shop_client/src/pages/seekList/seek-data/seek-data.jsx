@@ -325,8 +325,6 @@ class SeekData extends React.Component {
                     ))
                 }
             </div>
-
-
         )
     }
 }

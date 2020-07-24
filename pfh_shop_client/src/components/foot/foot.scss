@@ -1,0 +1,26 @@
+.foot {
+    // border: 1px solid #000;
+    >.ant-affix {
+        background: #fff;
+
+        .foot-affix {
+            // height: 61px;
+            margin-left: -10px;
+
+            // display: flex;
+            // justify-content: center;
+            .foot-ioc {
+                // float: left;
+                // height: 61px;
+                // display: flex;
+                // flex-direction: column;
+
+                span {
+                    text-align: center;
+                }
+
+            }
+
+        }
+    }
+}

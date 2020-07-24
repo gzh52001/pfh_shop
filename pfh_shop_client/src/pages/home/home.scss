@@ -2,6 +2,7 @@
     width: 100%;
     padding: 0.483vw;
     box-sizing: border-box;
+    position: relative;
 
     .ant-affix {
         width: 100%;
@@ -64,6 +65,12 @@
             width: 93.237vw;
             height: 69.082vw;
         }
+    }
+    >.foot {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
     }
 
 }

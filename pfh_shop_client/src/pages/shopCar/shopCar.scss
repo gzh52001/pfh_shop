@@ -1,11 +1,12 @@
 .shopCar {
     width: 100%;
-    height: 100%;
+    height: 176.57vw;
     background-color: #fff;
+    position: relative;
 
     section {
         width: 100%;
-        height: 444px;
+        height: 149.758vw;
 
         >a {
             display: block;
@@ -13,8 +14,14 @@
             height: 100%;
 
             >img {
-                margin: 140px 80px;
+                margin: 33.816vw 19.324vw;
             }
         }
+    }
+    >.foot {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
     }
 }
