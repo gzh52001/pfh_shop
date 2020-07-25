@@ -1,11 +1,9 @@
 import React, {Component} from 'react'
-import './cgsm.scss'
 import TopNav from '../../components/TopNav/topNav'
 import CarBtn from '../../components/CarBtn/carBtn'
 import asd from './img/order-instructions.jpg';
-
 import {} from '@ant-design/icons';
-
+import './cgsm.scss'
 export default class Cgsm extends Component {
     render(){
         return(

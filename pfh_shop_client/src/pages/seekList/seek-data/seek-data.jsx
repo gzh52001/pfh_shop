@@ -1,5 +1,6 @@
 import React from 'react'
 import "./seek-data.scss"
+import { withRouter } from 'react-router-dom'
 
 class SeekData extends React.Component {
     state = {
@@ -300,14 +301,23 @@ class SeekData extends React.Component {
             },
         ]
     }
+    gogwcjs = () => {
+        this.props.history.push("/gwcjs")
+    }
+    goglogin = () => {
+        this.props.history.push("/login")
+    }
+    gogxq = () => {
+        this.props.history.push("/details")
+    }
     render() {
         return (
             <div className="seek-data">
                 {
                     this.state.bookArr.map((item) => (
                         <div className="lists-li" key={item.img}>
-                            <img src={item.img} alt="" />
-                            <p>
+                            <img src={item.img} alt="" onClick={this.gogxq} />
+                            <p onClick={this.gogxq}>
                                 <i>{item.place}</i>{item.describe}
                             </p>
                             <div className="lists-pl">
@@ -317,8 +327,8 @@ class SeekData extends React.Component {
                                 <span>成交额:{item.make}</span>
                             </div>
                             <div className="lists-b">
-                                <a><img src="./images/1.png" alt="" /></a>
-                                <a>加入进货单</a>
+                                <a onClick={this.gologin}><img src="./images/1.png" alt="" /></a>
+                                <a onClick={this.gogwcjs}>加入进货单</a>
                             </div>
 
                         </div>
@@ -328,5 +338,5 @@ class SeekData extends React.Component {
         )
     }
 }
-
+SeekData = withRouter(SeekData)
 export default SeekData

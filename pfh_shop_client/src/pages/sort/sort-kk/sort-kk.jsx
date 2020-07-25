@@ -1,6 +1,7 @@
 import React from "react"
-import "./sort-kk.scss"
 
+import { withRouter } from "react-router-dom"
+import "./sort-kk.scss"
 
 class SortKk extends React.Component {
     state = {
@@ -55,7 +56,11 @@ class SortKk extends React.Component {
             },
         ]
     }
+    list = () => {
+            this.props.history.push("/seeklist")
+        }
     render() {
+        
         return (
             <ul className="tba2">
                 {
@@ -67,7 +72,7 @@ class SortKk extends React.Component {
                             <ul className="tba2-ul" key={item.sitelist}>
                                 {
                                     item.siteLists.map(item => (
-                                        <li>{item.sitelist}</li>
+                                        <li onClick={this.list}>{item.sitelist}</li>
                                     ))
                                 }
                             </ul>
@@ -78,4 +83,5 @@ class SortKk extends React.Component {
         )
     }
 }
+SortKk = withRouter(SortKk)
 export default SortKk

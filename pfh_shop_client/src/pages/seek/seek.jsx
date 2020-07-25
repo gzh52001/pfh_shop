@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import SeekHead from "./seek-head/seek-head"
 import "./seek.scss"
+import { withRouter } from "react-router-dom"
 
 
 class Seek extends React.Component {
@@ -13,6 +14,9 @@ class Seek extends React.Component {
             { siteName: "毛衣链" }
         ]
     }
+    list = () => {
+        this.props.history.push("/seeklist")
+    }
     render() {
         // 定义数组，将元素放到该数组中
         return (
@@ -24,7 +28,7 @@ class Seek extends React.Component {
                 <ul className="taby">
                     {
                         this.state.bookArr.map((item) => {
-                            return <li key={item.siteName}>{item.siteName}</li>
+                            return <li key={item.siteName} onClick={this.list}>{item.siteName}</li>
                         }
                         )
                     }
@@ -33,4 +37,5 @@ class Seek extends React.Component {
         )
     }
 }
+Seek = withRouter(Seek)
 export default Seek

@@ -1,12 +1,13 @@
 import React from "react"
 import { Tabs } from 'antd'
+import { withRouter } from 'react-router-dom'
 import "./lists.scss"
 
 const TabPane = Tabs.TabPane
 
 
 class Tebst extends React.Component {
-    
+
     state = {
         bookArr: [
             {
@@ -314,7 +315,7 @@ class Tebst extends React.Component {
                         price: "51.62",
                         make: "112"
                     },
-                    
+
                 ]
             },
             {
@@ -853,6 +854,15 @@ class Tebst extends React.Component {
             },
         ]
     }
+    gopage = () => {
+        this.props.history.push("/details")
+    }
+    gologin = () => {
+        this.props.history.push("/login")
+    }
+    gogwcjs = () => {
+        this.props.history.push("/gwcjs")
+    }
     render() {
         // 定义数组，将元素放到该数组中
         return (
@@ -864,8 +874,8 @@ class Tebst extends React.Component {
                                 {
                                     item.siteList.map(item => (
                                         <div className="lists-li" key={item.img}>
-                                            <img src={item.img} alt="" />
-                                            <p>
+                                            <img src={item.img} alt="" onClick={this.gopage} />
+                                            <p onClick={this.gopage}>
                                                 <i>{item.place}</i>{item.describe}
                                             </p>
                                             <div className="lists-pl">
@@ -875,10 +885,10 @@ class Tebst extends React.Component {
                                                 <span>成交额:{item.make}</span>
                                             </div>
                                             <div className="lists-b">
-                                                <a><img src="./images/1.png" alt=""/></a>
-                                                <a>加入进货单</a>
+                                                <a onClick={this.gologin}><img src="./images/1.png" alt="" /></a>
+                                                <a onClick={this.gogwcjs}>加入进货单</a>
                                             </div>
-                                            
+
                                         </div>
                                     ))
                                 }
@@ -890,4 +900,5 @@ class Tebst extends React.Component {
         )
     }
 }
+Tebst = withRouter(Tebst)
 export default Tebst

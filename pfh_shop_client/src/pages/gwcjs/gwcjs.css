@@ -1,0 +1,105 @@
+.gwcjs{
+    width: 100%;
+    height: 100%;
+}
+.gwcjs .con{
+    width: 100%;
+
+}
+.gwcjs .con .dname{
+    width: 100%;
+    height: 7vw;
+    /* background-color: #dd99c5; */
+    background-color: #fff;
+    line-height: 7vw;
+
+}  
+.gwcjs .con .dname input,
+.gwcjs .con .floor1 .gn input{
+    float: left;
+    display: inline-block;
+    width: 4vw;
+    height: 4vw;
+    margin-top: 1.788vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+.gwcjs .con .dname p{
+    font-size: 4vw;
+    font-weight: 600;
+}
+.gwcjs .con .floor1 .gn p{
+    float: left;
+    font-size: 4vw;
+    font-weight: 500;
+}
+.gwcjs .con .floor1 .gn span{
+    font-size: 4vw;
+    font-weight: 500;
+    padding-left: 20vw;
+}
+.gwcjs .con .info{
+    width: 100%;
+    height: 20vw;
+    background-color: #dd99c5;
+}
+.gwcjs .con .info p{
+    font-size: 4vw;
+    font-weight: 600;
+    padding: 3vw;
+    color: #fff;
+}
+.gwcjs .con .info p span{
+    color: #bf338b;
+}
+.gwcjs .con .floor1{
+    width: 100%;
+
+}
+.gwcjs .con .floor1 .gn{
+    width: 100%;
+    height: 7vw;
+}
+.gwcjs .con .gpin{
+    width: 100%;
+    height: 20vw;
+}
+.gwcjs .con .gpin .gpin-box{
+    float: left;
+    width: 18vw;
+    height: 18vw;
+    background-color: #fff;
+    margin-left: -65vw;
+}
+.gwcjs .con .gpin .g-info{
+    float: left;
+    margin-left: -45vw;
+
+}
+.gwcjs .con .gpin .g-info p{
+    margin-top: 4vw;
+}
+.gwcjs .con .gpin .g-info span{
+    display: inline-block;
+    margin-top: -3vw;
+}
+.gwcjs .con .gpin .qty{
+    float: right;
+}
+.gwcjs .con .gpin .qty .top button,
+.gwcjs .con .gpin .qty .top span{
+    display: inline-block;
+    width: 8vw;
+    height: 5vw;
+}
+.gwcjs .con .gpin .qty .top{
+    margin-right: 3vw;
+    margin-top: 5vw;
+}
+.gwcjs .con .gpin .qty .top span{
+    padding-left: 2vw;
+}
+.gwcjs .con .gpin .qty .bottom{
+    margin-top: 1.7vw;
+    margin-left: 5vw;
+}

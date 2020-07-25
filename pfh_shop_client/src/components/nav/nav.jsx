@@ -1,5 +1,6 @@
 import React from "react"
 import "./nav.scss"
+import { withRouter } from "react-router-dom"
 
 
 class Nav extends React.Component {
@@ -39,6 +40,9 @@ class Nav extends React.Component {
             },
         ]
     }
+    goseek = () => {
+        this.props.history.push("/seeklist")
+    }
     render() {
         // 定义数组，将元素放到该数组中
         return (
@@ -46,7 +50,7 @@ class Nav extends React.Component {
                 <ul className="nav_ul">
                     {
                         this.state.bookArr.map((item) => {
-                            return <li key={item.siteName}>
+                            return <li key={item.siteName} onClick={this.goseek}>
                                 <img src={item.siteImg} alt="" /><a>{item.siteName}</a>
                             </li>
                         }
@@ -55,8 +59,7 @@ class Nav extends React.Component {
                 </ul>
             </div>
         )
-
-
     }
 }
+Nav = withRouter(Nav)
 export default Nav

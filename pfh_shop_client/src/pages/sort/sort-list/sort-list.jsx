@@ -1,5 +1,6 @@
 import React from "react"
 import "./sort-list.scss"
+import { withRouter } from "react-router-dom"
 
 
 class SortList extends React.Component {
@@ -19,12 +20,15 @@ class SortList extends React.Component {
             { siteName: "包装" },
         ]
     }
+    list = () => {
+        this.props.history.push("/seeklist")
+    }
     render() {
         return (
             <ul className="tba1">
                 {
                     this.state.bookArr.map((item => {
-                        return <li>{item.siteName}</li>
+                        return <li onClick={this.list}>{item.siteName}</li>
                     }))
 
                 }
@@ -32,4 +36,5 @@ class SortList extends React.Component {
         )
     }
 }
+SortList = withRouter(SortList)
 export default SortList

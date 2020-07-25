@@ -9,6 +9,8 @@ import GoodsXQ from './pages/goodsxq/goodsxq.jsx'
 import Cgsm from './pages/cgsm/cgsm.jsx'
 import Seek from "./pages/seek/seek.jsx"
 import SeekList from "./pages/seekList/seekList.jsx"
+import Reg from "./pages/reg/reg.jsx"
+import Gwcjs from "./pages/gwcjs/gwcjs.jsx"
 // import Foot from "./components/foot/foot.jsx"
 // import Bat from "./pages/bat.jsx"
 import 'antd/dist/antd'
@@ -23,6 +25,8 @@ class App extends Component {
             <>
                 <HashRouter>
                     <Switch>
+                        <Route path='/gwcjs' component={Gwcjs}></Route>
+                        <Route path='/reg' component={Reg}></Route>
                         <Route path='/goodsxq' component={GoodsXQ}></Route>
                         <Route path='/cgsm' component={Cgsm}></Route>
                         <Route path='/seekList' component={SeekList}></Route>

@@ -1,6 +1,7 @@
 import React from "react"
 import { Carousel } from 'antd';
 import "./xinkuan.scss"
+import { withRouter } from "react-router-dom";
 
 class Xklb extends React.Component {
     state = {
@@ -102,6 +103,9 @@ class Xklb extends React.Component {
             }
         ]
     }
+    gopage = () => {
+        this.props.history.push("/details")
+    }
     render() {
         // 定义数组，将元素放到该数组中
         // console.log(this.state.bookArr[0].siteTitles);
@@ -116,7 +120,7 @@ class Xklb extends React.Component {
                             </div>
                             {
                                 item.siteTitles.map(item => (
-                                    <div className="xklb-ctn" key={item.siteImg}>
+                                    <div className="xklb-ctn" key={item.siteImg} onClick={this.gopage}>
                                         <img src={item.siteImg} alt="" />
                                         <div>
                                             <p>{item.siteCon}</p>
@@ -132,5 +136,5 @@ class Xklb extends React.Component {
         )
     }
 }
-
+Xklb = withRouter(Xklb)
 export default Xklb

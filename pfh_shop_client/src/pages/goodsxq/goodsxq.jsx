@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import './goodsxq.scss'
 import TopNav from '../../components/TopNav/topNav'
 import CarBtn from '../../components/CarBtn/carBtn'
 import imgg from './img/giao.jpg'
 import {
   } from '@ant-design/icons';
+import './goodsxq.scss'
 
 export default class GoodsXQ extends Component {
     render(){
